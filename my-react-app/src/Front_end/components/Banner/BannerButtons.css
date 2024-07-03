@@ -1,0 +1,23 @@
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .banner-button {
+    background: white;
+    color: #0796F6;
+    border: 2px solid rgb(71, 64, 169);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .banner-button:hover {
+    background: #0796F6;
+    color: white;
+  }
+  

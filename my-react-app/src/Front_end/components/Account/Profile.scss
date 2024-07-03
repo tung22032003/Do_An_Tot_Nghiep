@@ -1,0 +1,111 @@
+
+.account-profile {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 20%;
+    padding: 20px;
+    border: 2px solid #281c1c;
+    background-color: #f7f7f7;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .sidebar .customer-id-button {
+    background-color: #f8d7da;
+    border: none;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .customer-id {
+    background-color: #fff3cd;
+    padding: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .sidebar li svg {
+    margin-right: 10px;
+  }
+  
+  .sidebar .active {
+    color: red;
+  }
+  
+  .content-profile {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  .personal-info, .child-info, .address-info {
+    margin-bottom: 20px;
+  }
+  
+  .personal-info h2, .child-info h2, .address-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .child-info a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .address-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .address-item .address-type {
+    background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px 0;
+  }
+  
+  .address-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .address-actions .icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .add-address-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-address-button:hover {
+    background-color: #45a049;
+  }
+  

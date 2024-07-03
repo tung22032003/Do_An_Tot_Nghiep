@@ -1,0 +1,35 @@
+.banner-images-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .banner-images-grid {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner-image-item {
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .banner-image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-label {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  

@@ -1,0 +1,350 @@
+.container-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar-page {
+    width: 100%;
+    
+}
+
+.header-page {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust this value to set the desired height */
+    width: 90%;
+    
+}
+
+.footer-page {
+    width: 100%;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+ 
+.list-menu{
+    justify-content: space-evenly;
+   
+}
+.navbar-search{
+    width: 100%;
+    
+}
+.danh-muc-san-pham {
+     
+    flex: 1;
+    background-color:  rgb(181, 225, 225);
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.list-product {
+    
+    flex: 3;
+    padding: 20px;
+    // background-color: #b38d8d;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.content-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.custom-size{
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.custom-color {
+    color: #8f8f8f; 
+  }
+.product-info p{
+    font-size: 13px; 
+}
+.product-info .brand-category{
+  display: flex;
+  justify-content: space-between;
+}
+.image-container {
+    overflow: hidden;
+    position: relative;
+
+    .discount-label {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #ff6f61; 
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+}
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+
+.page-width{
+    width: 95%;
+}
+
+.product-info-wrapper {
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.action-button {
+    display: flex;  
+    align-items: center;
+    gap:50px ;
+}
+
+.icon-spacing {
+    font-size: 44px; 
+    color: #007bff; 
+    transition: color 0.3s ease;
+ }
+ .icon-spacing:hover {
+    color: #ff0000; 
+    cursor: pointer; 
+}
+.action-button .button{
+    background-color: #2562a3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+  .loading {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    //font-weight: 600;
+    font-style: normal;
+  }
+  
+  
+  header {
+    width: 100%;
+    background-color: #0796F6;
+    //background-color: #FF946B;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    //background-color: #FF946B;  
+    background-color: #084065;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: center;
+    background-color: #0796F6;  
+     
+  }
+  
+  .logo img {
+    height: 150px; /* Adjust size as needed */
+    width: 350px;
+    margin-left: 50px;
+    padding: 15px;
+  }
+  
+  .navigation {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    background-color:#0796F6;
+    transition: background-color 0.3s ease;
+    
+  }
+  .navigation.hovered {
+    background-color: #dac575; /* Màu nền khi hover */
+    color: #007bff;
+
+  }
+  .navigation a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 27px;
+  }
+  .navigation a img {
+    margin-right: 8px; /* Khoảng cách giữa hình ảnh và văn bản */
+    height: 50px; /* Chỉnh chiều cao của hình ảnh */
+    width: 50px; /* Đặt chiều rộng tự động để giữ tỉ lệ của hình ảnh */
+  }
+  .navigation a:hover {
+    border-radius: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 800px;
+  }
+  
+  
+  
+  .search-container input {
+    width: 1000px; /* Tăng chiều rộng của input */
+    height: 70px; /* Tăng chiều cao của input */
+    padding: 20px;
+    border-radius: 35px;
+    border: 1px solid #ccc;
+    font-size: 18px; /* Tăng kích thước font chữ */
+  }
+  
+  .search-container button {
+    height: 50px; 
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px; 
+      
+  
+  }
+  .user-actions{
+    display: flex;
+    margin-top: 20px;
+  }
+  .user-actions button{
+    background-color: #0796F6;
+  }
+  .user-actions a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease, background-color 0.3s ease;  
+  }
+  .user-actions a:hover {
+    color: #000000;  
+    background-color: white;  
+    text-decoration: none;  
+    padding: 5px 10px;  
+    border-radius: 10px;  
+  }
+  
+  .user-actions a i {
+    margin-right: 5px;
+  }
+  .user-greeting {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+  
+    button {
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #ff4b47;  
+      }
+    }
+
+  }
+  .user-greeting:hover .account-info {
+    display: block;
+  }
+  .filter-section {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .filter-label {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+    .filter-select {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+}

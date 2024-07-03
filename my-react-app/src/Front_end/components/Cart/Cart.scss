@@ -1,0 +1,210 @@
+
+.CartContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.CartItems {
+  flex: 3;
+  margin-right: 20px;
+}
+.CartItem .ItemInfo h3{
+  font-weight: revert-layer;
+  font-size: 15px;
+}
+.Title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.CartHeader {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.CartList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.CartItem {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr auto;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ItemDetails {
+  display: flex;
+  align-items: center;
+}
+
+.ItemInfo {
+  margin-left: 20px;
+}
+
+.ItemName {
+  margin: 0;
+}
+
+.ItemPrice,
+.ItemQuantity,
+.ItemTotalPrice {
+  text-align: center;
+}
+
+.ItemQuantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #2980b9;
+}
+
+.ItemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.RemoveButton {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  color: #e74c3c;
+}
+
+.RemoveButton:hover {
+  color: #c0392b;
+}
+
+.EmptyCartMessage, .LoadingMessage {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.ButtonGroup {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #2980b9;
+}
+
+.Address,
+.Coupons,
+.Summary {
+  margin-bottom: 20px;
+}
+
+.Address h4,
+.Coupons h4 {
+  margin: 0 0 10px 0;
+}
+
+.AddressButton,
+.CouponsButton,
+.CheckoutButton {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: #ff4081;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AddressButton:hover,
+.CouponsButton:hover,
+.CheckoutButton:hover {
+  background-color: #e91e63;
+}
+
+.Summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.Summary span {
+  font-weight: bold;
+}
+/* File: src/components/EmptyCartMessage.scss */
+.empty-cart {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #555;
+}
+
+.empty-cart h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+  font-style: normal;
+    font-weight: 600;
+}
+
+.empty-cart p {
+  color: #777;
+}
+
+.empty-cart img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.continue-shopping-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+

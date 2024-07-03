@@ -1,0 +1,10 @@
+.slick-slider {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

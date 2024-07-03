@@ -1,0 +1,38 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .carousel-images {
+    margin-bottom: 20px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel-images img {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    scroll-snap-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .carousel-button.prev {
+    margin-right: 10px;
+  }
+  
+  .carousel-button.next {
+    margin-left: 10px;
+  }
+  
